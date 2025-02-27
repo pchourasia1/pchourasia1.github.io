@@ -28,7 +28,7 @@ a:active { text-decoration: underline; }
     }
     .navbar a:hover { text-decoration: none;}
     .navbar-nav a:hover {
-      color: #15508f !important;
+      color: #85b6a3 !important;
       text-decoration: none;
     }
     .bg-1 {
