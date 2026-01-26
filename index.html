@@ -45,6 +45,53 @@
        width: 100%;*/
     }
 </style>
+
+  <style>
+  .teach-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+  }
+  .teach-table td {
+    vertical-align: top;
+    padding: 6px 8px;
+  }
+  .teach-table tr:not(:last-child) td {
+    border-bottom: 1px solid #ccc;  /* separator line */
+  }
+  .course-col {
+    width: 70%;
+  }
+  .term-col {
+    width: 30%;
+    text-align: right;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+</style><style>
+  .teach-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 8px;
+  }
+  .teach-table td {
+    vertical-align: top;
+    padding: 6px 8px;
+  }
+  .teach-table tr:not(:last-child) td {
+    border-bottom: 1px solid #ccc;  /* separator line */
+  }
+  .course-col {
+    width: 70%;
+  }
+  .term-col {
+    width: 30%;
+    text-align: right;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+</style>
+  
   <!-- <style>
 
  html {
@@ -583,20 +630,22 @@ a:active { text-decoration: underline; }
         <h4>Teaching Experience</h4>
         <br>
         <h5> <u>Teaching Fellow</u> </h5>
-        <table>
-          <tbody>
-            <tr>
-              <td>CSC 4520/6520 Design and Analysis: Algorithms<br>Instructor for a class of 60 students</td>
-              <td style="width:40px;"></td>
-              <td>Spring 2026</td>
-            </tr>
-
-            <tr>
-              <td>CSC 1302 Principles of Computer Science II<br>Instructor for a class of 150 students</td>
-              <td></td>
-              <td>Spring 2022</td>
-            </tr>
-          </tbody>
+        <table class="teach-table">
+          <tr>
+            <td class="course-col">
+              CSC 4520/6520 Design and Analysis: Algorithms<br>
+              Instructor for a class of 60 students
+            </td>
+            <td class="term-col">Spring 2026</td>
+          </tr>
+        
+          <tr>
+            <td class="course-col">
+              CSC 1302 Principles of Computer Science II<br>
+              Instructor for a class of 150 students
+            </td>
+            <td class="term-col">Spring 2022</td>
+          </tr>
         </table>
         <br>
         <h5> <u>Graduate Teaching Assistant</u> </h5>
